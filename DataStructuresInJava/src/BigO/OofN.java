@@ -9,6 +9,15 @@ public class OofN {
         int[] arr = {7, 4, 11, 4, 5, 6, 12, 8, 22, 37};
         log(arr);
 
+        for(int i=0; i<100;i++){
+            System.out.println("*****");
+            System.out.println("***");
+            System.out.println("****");
+            System.out.println("*****");
+            System.out.println("*****");
+
+        }
+
     }
 
     public static void log(int[] numbers){
