@@ -61,7 +61,7 @@ public class Main {
         System.out.println(dynamicArr.size());
         System.out.println(dynamicArr.indexOf("Anni"));
         System.out.println(dynamicArr.contains("Wyatt"));
-        
+
 
     }
 }
