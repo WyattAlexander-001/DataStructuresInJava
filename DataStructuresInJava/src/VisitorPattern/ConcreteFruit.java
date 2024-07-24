@@ -21,4 +21,9 @@ public class ConcreteFruit implements FoodItemElement {
     public void accept(FoodVisitor visitor) {
         visitor.visit(this);
     }
+
+    @Override
+    public String toString(){
+        return "Fruit [name=" + name + ", calories=" + calories + "]";
+    }
 }

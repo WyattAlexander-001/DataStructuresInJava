@@ -1,7 +1,8 @@
 package VisitorPattern;
 
 public interface FoodVisitor {
-    void visit(ConcreteFruit fruit);
-    void visit(ConcreteVegetable vegetable);
-    void visit(ConcreteMeat meat);
+    //Method overloading used for different ELEMENTS -> These get fed to the FoodItemElement interface
+    void visit(ConcreteFruit f);
+    void visit(ConcreteVegetable v);
+    void visit(ConcreteMeat m);
 }

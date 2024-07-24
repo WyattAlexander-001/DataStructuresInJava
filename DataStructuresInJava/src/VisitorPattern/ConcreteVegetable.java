@@ -17,9 +17,13 @@ public class ConcreteVegetable implements FoodItemElement {
         return calories;
     }
 
-    //
     @Override
     public void accept(FoodVisitor visitor) {
         visitor.visit(this);
+    }
+
+    @Override
+    public String toString() {
+        return "Vegetable [name=" + name + ", calories=" + calories + "]";
     }
 }

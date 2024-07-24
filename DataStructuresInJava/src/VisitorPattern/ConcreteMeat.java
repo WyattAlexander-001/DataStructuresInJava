@@ -21,4 +21,9 @@ public class ConcreteMeat implements FoodItemElement {
     public void accept(FoodVisitor visitor) {
         visitor.visit(this);
     }
+
+    @Override
+    public String toString() {
+        return "Meat [name=" + name + ", calories=" + calories + "]";
+    }
 }
